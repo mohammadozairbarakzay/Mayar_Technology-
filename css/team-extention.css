@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(to right, #0c0922, #21135e);
+}
+
+
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Set color for dropdown items */
+.navbar-nav .nav-item.dropdown .dropdown-menu a {
+    color: white;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* this is for the larg text with the  */
+
+.porple-heading {
+    color: #df2d95;
+}
+
+.title-g {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #a86e95, #6dbcbe);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* this is for card */
+.card {
+    background: linear-gradient(to right, #06071a, #181f3f);
+
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.card-body .col-line {
+    border-right: 1px solid #ddd;
+
+}
+
+/* to style the collaps  */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.collapsed .arrow-icon {
+    transform: rotate(-180deg);
+}
+
+
+/*  to highlit the border of card */
+.custom-card-b-h {
+    background: linear-gradient(to right, #3b0329, #580546);
+}
+
+/*  to highlit the border of card */
+.custom-card-b-h:hover {
+    border: 2px solid rgb(122, 20, 80);
+}

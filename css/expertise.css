@@ -1,0 +1,233 @@
+body {
+    background: linear-gradient(to right, #0c0922, #1b0e52);
+}
+
+p {
+    color: #c2bafc;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Set color for dropdown items */
+.navbar-nav .nav-item.dropdown .dropdown-menu a {
+    color: white;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* this is for the larg text with the  */
+
+.porple-heading {
+    color: #961962;
+}
+
+.title-g {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #a86e95, #6dbcbe);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* this is for card */
+.card {
+    background: linear-gradient(to right, #06071a, #181f3f);
+    padding: 20px;
+    margin: 10px;
+
+}
+
+
+/*  to highlit the border of card */
+.custom-card-b-h:hover {
+    border: 2px solid rgb(85, 8, 85);
+}
+
+/* for the cards with blue background */
+.card-blue-background {
+    background: linear-gradient(to right, #0e3979, #2441c4);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* to change the background of button to blue on hoer  */
+.hover-blue-background-btn {
+    background-color: rgb(216, 17, 166);
+    border-color: rgb(216, 17, 166);
+}
+
+/* .hover-blue-background-btn:hover {
+    background-color: blue;
+    border-color: blue;
+} */
+
+/* there are three cards that one of them have different background color */
+.custom-card {
+    background: linear-gradient(to right, #290822, #201530);
+}
+
+/* the background of small cards for the developemnt languages */
+.sc {
+    background: linear-gradient(to right, #1b4069, #1f4775);
+}
+
+/*  */
+.container-back-img {
+    border: 1px solid var(--border-cards);
+    background-image: url(https://assets-global.website-files.com/612f8414a3e5101241cc446e/644a7d405e1d485fb7c7f9aa_Illustration.svg), url(https://assets-global.website-files.com/612f8414a3e5101241cc446e/6449240691bd438851617146_Capa_1.svg), linear-gradient(135deg, #280523, #04162e);
+    background-position: 1050px 0, 0px 0, 0 0;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: auto, contain, auto;
+    background-attachment: scroll, scroll, scroll;
+    border-radius: 8px;
+    padding-bottom: 30px;
+}
+
+/* to style the collaps  */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.collapsed .arrow-icon {
+    transform: rotate(-180deg);
+}
+
+/*  */
+.custom-card-b-h {
+    background: linear-gradient(to right, #3b0329, #580546);
+}
+
+/*  to highlit the border of card */
+.custom-card-b-h:hover {
+    border: 2px solid rgb(122, 20, 80);
+}
+
+/* the cards are colored from fight to left */
+.custom-card-right {
+    background: linear-gradient(to right, #242c52, #06071a);
+
+}
+
+/* to add dotted border  */
+
+.card-border-left::after {
+    content: url('https://assets-global.website-files.com/612f8414a3e5101241cc446e/61de83a585b7e760d0f5d131_devlane-qa-software-testing-process-decoration-dotted-elipse.svg');
+    /* Replace 'your-image-url' with the actual URL of your image */
+    display: block;
+    width: 20px;
+    height: 20px;
+    /* Adjust the height based on your image size */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+
+}
+
+
+.card-border-right::before {
+    content: url('https://assets-global.website-files.com/612f8414a3e5101241cc446e/61de83a585b7e760d0f5d131_devlane-qa-software-testing-process-decoration-dotted-elipse.svg');
+    /* Replace 'your-image-url' with the actual URL of your image */
+    display: block;
+    width: 20px;
+    height: 20px;
+    /* Adjust the height based on your image size */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+}
+
+
+.card-border-left::after {
+    left: -40px;
+}
+
+.card-border-right::before {
+    right: -34px;
+}
+
+/* Rest of your existing CSS */
+
+
+/*  */
+/* .dash-border-left {
+
+    border-left: 3px dashed #15284b;
+    border-left-width: 3px;
+} */
+.dash-border-left {
+    border-left: 3px dashed #15284b;
+    border-left-width: 3px;
+    margin-left: 10px;
+    /* Adjust the margin as needed to center the left border */
+}
+
+
+.dash-border-right {
+    border-right: 3px dashed #15284b;
+    border-right-width: 3px;
+}
+
+.dash-border-top {
+    border-top: 3px dashed #15284b;
+    border-top-width: 3px;
+}
+
+.dash-border-bottom {
+    border-bottom: 3px dashed #15284b;
+    border-bottom-width: 3px;
+}
+
+/* card for the dotted borders  */
+.card-border {
+    background: linear-gradient(to right, #0c0922, #1b0e52);
+    border: none;
+}
+
+/*//////////////////////////////////////////////////////// this is for the page "about us style" ///////////////////////////////////////////////////////////*/
+/* to add right border  */
+.column-divider {
+    border-right: 1px solid #aaccd4;
+
+}
+
+/* this container have one side background image */
+.container-back-img-side {
+    border: 1px solid var(--border-cards);
+    background-image: url(https://assets-global.website-files.com/612f8414a3e5101241cc446e/6449240691bd438851617146_Capa_1.svg), linear-gradient(135deg, #280523, #04162e);
+    background-position: 600px 0, 0px 0, 0 0;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: auto, contain, auto;
+    background-attachment: scroll, scroll, scroll;
+    border-radius: 8px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// Our Work //////////////////////////////////////////////////////// */
+.custom-card1 {
+    background: linear-gradient(to bottom, #06071a, #111527);
+}
+
+/*  */
+.custom-card2 {
+    background: linear-gradient(to bottom, #11041a, #120229);
+}
+
+/* border */
+.bordered {
+    border: 1px solid rgb(63, 10, 75);
+    border-radius: 15px;
+}

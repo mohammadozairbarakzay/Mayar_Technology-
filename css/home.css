@@ -1,0 +1,209 @@
+body {
+    background: linear-gradient(to right, #0c0922, #21135e);
+}
+
+
+/* Set background color for dropdown items */
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Set color for dropdown items */
+.navbar-nav .nav-item.dropdown .dropdown-menu a {
+    color: white;
+}
+
+/* open nave dropdowns on mouse hover  */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* the title of first page  */
+.home-title {
+    font-size: 60px;
+}
+
+
+/* /////////// to add style in the slider image ////////// */
+.img-slider {
+    border: 0.5px solid #bdbdbd;
+    width: 100%;
+    border-radius: 20px;
+    /* Set the width to 100% to fill the parent container */
+    /* height: 40vh; */
+    /* Set the height as needed */
+    object-fit: cover;
+    /* Maintain the aspect ratio while covering the container */
+}
+
+.ch-background {
+    height: 590px;
+    position: relative;
+}
+
+.ch-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://assets-global.website-files.com/612f8414a3e5101241cc446e/645cec20454115e250772ecc_profile%20card%2014.svg');
+    border: 0.5px solid #e6e6e6;
+    opacity: 0.2;
+    /* Adjust the opacity as needed */
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-container {
+    padding: 10px 10px;
+    position: relative;
+    z-index: 1;
+    /* Ensure the child image is above the pseudo-element */
+}
+
+/* purple h6 heading for OUR DIFFERENTIATOR */
+.porple-heading {
+    color: #df2d95;
+}
+
+/* for the title "Not your average outsourcing company" */
+.title-g {
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, #a86e95, #6dbcbe);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* for the p in the page  */
+.text-p {
+    font-size: 22px;
+}
+
+/* to rotate the image in screen  */
+@media (max-width: 576px) {
+    .replace-image {
+        display: none;
+        /* Hide the image on small screens */
+    }
+
+    .original-image {
+        display: block;
+
+    }
+}
+
+@media (min-width: 577px) {
+    .replace-image {
+        display: block;
+        /* Display the image on larger screens */
+    }
+
+    .original-image {
+        display: none;
+        /* Hide the original image on larger screens */
+    }
+}
+
+.btn-primary {
+    height: 80px;
+}
+
+/* this is the card and avatar */
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.card {
+    background: linear-gradient(to right, #06071a, #181f3f);
+
+    padding: 20px;
+    margin: 10px;
+
+}
+
+/* this is for the lines betwen the  */
+.card-body .col-line {
+    border-right: 1px solid #ddd;
+
+}
+
+/* Remove right border from the last column */
+.card-body .col-line:last-child {
+    border-right: none;
+}
+
+/* title-col-card */
+.title-col-card {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, #a86e95, #6dbcbe);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* to change the line from vertical to horizontal in screen resize */
+@media (max-width: 576px) {
+
+    /* this is for the lines betwen the  */
+    .card-body .col-line {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+
+
+    }
+
+    /* Remove right border from the last column */
+    .card-body .col-line:last-child {
+        border-bottom: none;
+    }
+}
+
+/* custom-card-background-and-hover */
+.custom-card-b-h {
+    background: linear-gradient(to right, #371038, #50164d);
+}
+
+/* to change the border of card when hover on card  */
+.custom-card-b-h:hover {
+    border: 2px solid #773d60;
+}
+
+/* to style chip */
+.chip {
+    display: inline-block;
+    background-color: linear-gradient(to right, #12061a, #201530);
+    border: 1px solid #79608b;
+    padding: 8px 12px;
+    border-radius: 16px;
+    margin: 4px;
+    font-size: 14px;
+    color: #79608b;
+    cursor: pointer;
+}
+
+.chip:hover {
+    background-color: #d0d0d0;
+}
+
+/* to add margin to the slider p */
+.margin-p {
+
+    padding-top: 0px;
+
+    padding-bottom: 50px;
+
+}
